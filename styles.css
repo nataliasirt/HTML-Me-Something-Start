@@ -5,7 +5,7 @@ body{
     font-weight:bolder;
     width: 100vw;
     padding: 0 10vw;
-    margin: 8px;
+    margin: 0.500rem;
     display:block;
     box-sizing: border-box;
 }
@@ -16,8 +16,8 @@ header{
 #mainHeading {
     background-color: #eef1c7e8;
     margin: 0 15%;
-    padding: 30px;
-    border: 10px solid black;
+    padding: 1.875rem;
+    border: 0.625rem solid black;
     border-radius: 20px;
     color: red;
 }
@@ -30,8 +30,8 @@ nav ul li{
     text-align: center;
     margin-right: 1em;
     font-size: 1em;
-    padding: 10px 0;
-    color: black
+    padding: 0.625rem 0;
+    color: black;
 }
 nav a {
     text-align: center;
@@ -41,40 +41,37 @@ nav a {
     margin: 0 15px;
     font-weight: 500;
     font-size: 1em;
-    
 }
 nav a:hover {
-    color: grey
+    color: grey;
 }
 
 h2{
-    font-size:18pt;
+    font-size:1.500rem;
 }
 h3{
     text-align: left;
-    font-size: 18pt;
+    font-size: 1.500rem;
     font-weight: bolder;
 }
 h4{
     text-align: left;
-    font-size: 18pt;
+    font-size: 1.500rem;
     font-weight: bolder;
 }
 .row{
     align-items:center;
     display:flex;
-    float:left;
     padding:0px;
 }
 .column {
     display:block;
-    float: left;
     width: 50%;
-    padding: 10px;
+    padding: 0.625rem;
 }
 section{
     text-align: left;
 }
 p{
-    font-size: 12pt;
+    font-size: 1.000rem;
 }
